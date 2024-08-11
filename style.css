@@ -1,0 +1,89 @@
+body{
+
+    font-family: 'Amatic SC';
+    margin: 0;
+    padding: 0;
+    background-color: #9D4EDD;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+}
+
+nav {
+display: flex;
+gap: 84px;
+font-size: 30px;;
+padding: 0 20px;
+
+}
+
+nav a{
+    text-decoration: bold;
+    text-transform: uppercase;
+    font-size: 48;
+    color: #FFCD6B;
+}
+
+.button{
+    color: #FFCD6B;
+    font-size: 30px;
+}
+
+.banner{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/Group\ 3.png);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-weight: 700;
+}
+
+.banner_o{
+    background-color: #FF8500;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.banner_p{
+    background-color: #9D4EDD;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.cart{
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.stepan{
+    position: absolute;
+    top: -20px;
+    right: 0;
+    background-color: #FFCD6B;
+    color: black;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+.products{
+    background-color: #FF8500;
+}
+
+.product_img{
+    background-color: #fff;
+}
